@@ -2,7 +2,7 @@
 library(dplyr)
 
 # Establecer la semilla aleatoria para reproducibilidad
-set.seed(456)
+set.seed(1456)
 
 # Función para generar fechas aleatorias dentro de un rango
 generate_random_dates <- function(n) {
