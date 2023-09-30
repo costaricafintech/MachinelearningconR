@@ -16,8 +16,7 @@ Ejemplo de k-NN en R:
 
 Vamos a utilizar un ejemplo sencillo de clasificación con k-NN en R utilizando el conjunto de datos "iris", que es un conjunto de datos de flores con tres clases diferentes.
 
-R
-Copy code
+```R
 # Cargar el conjunto de datos iris
 data(iris)
 
@@ -39,4 +38,6 @@ predicted_species <- knn(train_data[, 1:4], test_data[, 1:4], train_data[, 5], k
 # Evaluar la precisión de la clasificación
 accuracy <- sum(predicted_species == test_data[, 5]) / nrow(test_data)
 cat("Precisión del modelo k-NN:", accuracy)
+```
+
 En este ejemplo, dividimos el conjunto de datos "iris" en conjuntos de entrenamiento y prueba, luego utilizamos la función knn del paquete "class" para realizar la clasificación k-NN. Luego, calculamos la precisión del modelo comparando las predicciones con las etiquetas reales en el conjunto de prueba.
