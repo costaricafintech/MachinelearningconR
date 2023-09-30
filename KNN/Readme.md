@@ -1,4 +1,4 @@
-k-Nearest Neighbors (k-NN):
+# k-Nearest Neighbors (k-NN):
 
 El algoritmo k-NN es un método de aprendizaje supervisado utilizado tanto para problemas de clasificación como para regresión. Su principio fundamental es que los objetos similares tienden a estar cerca en el espacio de características. En otras palabras, asume que si un objeto se parece a sus vecinos más cercanos, entonces debe clasificarse o predecirse de manera similar a ellos.
 
@@ -12,7 +12,7 @@ En el caso de clasificación, cuenta las etiquetas de clase de los "k" puntos m�
 
 En el caso de regresión, calcula el valor promedio (o una ponderación basada en la distancia) de los "k" puntos más cercanos y lo asigna como la predicción para el nuevo punto.
 
-Ejemplo de k-NN en R:
+## Ejemplo de k-NN en R:
 
 Vamos a utilizar un ejemplo sencillo de clasificación con k-NN en R utilizando el conjunto de datos "iris", que es un conjunto de datos de flores con tres clases diferentes.
 
